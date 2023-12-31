@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "author": "Danilo Silva",
+    "name": "Instagram Stories AdBlock",
+    "description": "Desfrute dos Stories no Instagram sem anúncios indesejados.",
+    "version": "1.0",
+    "permissions": ["tabs", "declarativeNetRequest"],
+    "icons": {
+        "16": "assets/images/16x16.png",
+        "48": "assets/images/48x48.png",
+        "128": "assets/images/128x128.png",
+        "512": "assets/images/512x512.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "assets/images/16x16.png",
+            "48": "assets/images/48x48.png",
+            "128": "assets/images/128x128.png",
+            "512": "assets/images/512x512.png"
+        }
+    },
+    "background": {
+        "service_worker": "src/background.js"
+    }
+}
